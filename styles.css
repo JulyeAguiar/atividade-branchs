@@ -3,15 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4; 
+}
 button {
     padding: 10px 20px;
-
     font-size: 16px;
     color: white;
     background-color: rgb(218, 53, 244);
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     transition: background-color 0.3s ease;
 }
 
@@ -26,6 +38,11 @@ button:active {
 nav {
     background-color: #333;
     padding: 10px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+
 }
 
 nav ul {
@@ -52,6 +69,10 @@ footer {
     color: white;
     text-align: center;
     padding: 15px 10px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
 
 footer ul {
