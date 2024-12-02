@@ -1,3 +1,3 @@
-document.getElementById('botao').addEventListener('click', function() {
+document.getElementById('botaoclicado').addEventListener('click', function() {
     alert('Bem-vindo ao site!!!!');
 });
